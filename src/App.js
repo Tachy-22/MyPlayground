@@ -6,6 +6,8 @@ import "./index.css";
 //import ViewAll from "./components/viewAll";
 import Main from "./components/gsap";
 import Layout from "./components/sectionNav/Layout";
+import Accordion from "./components/accordion/Accordion";
+
 function App() {
   return (
     <div
@@ -15,7 +17,11 @@ function App() {
       {/* <TodoMain /> */}
       {/* <TestMain /> */}
       {/* <ViewAll /> */}
+
       <Main />
+
+      <Accordion />
+
       <Layout />
     </div>
   );
