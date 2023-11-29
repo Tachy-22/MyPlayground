@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* * {
+  border: 0px solid red
+} */
+
+/* styles.css */
+* {
+  scroll-behavior: smooth;
+  /* Adds smooth scrolling */
+  /* Adjust the speed of scrolling (e.g., slower) */
+  scroll-timeline: 0% 25% 50% 75% 100%;
+  scroll-snap-type: y mandatory;
+  scroll-snap-destination: 0% 100%;
+  scroll-snap-points-y: repeat(50%);
+  /* Other styles like height, overflow, etc., for the container */
+}
